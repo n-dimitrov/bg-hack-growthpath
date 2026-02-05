@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "document_title": "Software Engineering Career Framework",
+    "source": "1. Software Engineering-v5-20260205_122313.pdf",
+    "author": "Topalov Stefan (BD/SWD-BEA3)",
+    "date": "2026-02-05",
+    "organization": "Robert Bosch GmbH"
+  },
+  "career_tracks": {
+    "software_engineer": {
+      "name": "Software Engineer Track",
+      "description": "Technical individual contributor path for software development",
+      "levels": [
+        {
+          "level": 1,
+          "title": "Junior Software Engineer",
+          "pay_class": "PC06",
+          "summary": "Entry-level position requiring close guidance and support",
+          "impact_scope": "Individual tasks within established processes"
+        },
+        {
+          "level": 2,
+          "title": "Software Engineer",
+          "pay_class": "PC07",
+          "summary": "Developing engineer with specialist support",
+          "impact_scope": "Component-level work with support"
+        },
+        {
+          "level": 3,
+          "title": "Senior Software Engineer",
+          "pay_class": "PC08",
+          "summary": "Independent contributor working on clearly defined tasks",
+          "impact_scope": "System-level responsibility"
+        },
+        {
+          "level": 4,
+          "title": "Lead Software Engineer",
+          "pay_class": "PC09",
+          "summary": "Technical leader introducing new technologies and architectures",
+          "impact_scope": "Team-level influence and cross-system impact"
+        },
+        {
+          "level": 5,
+          "title": "Principal Software Engineer",
+          "pay_class": "PC10",
+          "summary": "Senior technical leader with organizational impact",
+          "impact_scope": "Organization-wide technical strategy and complex problem solving"
+        }
+      ]
+    },
+    "software_architect": {
+      "name": "Software Architect Track",
+      "description": "Architecture and design leadership path",
+      "levels": [
+        {
+          "level": 1,
+          "title": "Software Architect",
+          "pay_class": "PC09",
+          "summary": "Responsible for architecture of projects with significant impact",
+          "impact_scope": "Project Impact Category D",
+          "project_category": "D"
+        },
+        {
+          "level": 2,
+          "title": "Senior Software Architect",
+          "pay_class": "PC10",
+          "summary": "Responsible for architecture of large-scale, high-impact projects",
+          "impact_scope": "Project Impact Category C",
+          "project_category": "C"
+        }
+      ]
+    }
+  },
+  "competency_areas": {
+    "design_implementation_documentation": {
+      "name": "Design, Implementation, Documentation",
+      "description": "Core technical execution capabilities",
+      "levels": {
+        "PC06": {
+          "title": "Junior Software Engineer",
+          "expectations": "Assistance in expanding, implementing and documenting software components and systems within established processes."
+        },
+        "PC07": {
+          "title": "Software Engineer",
+          "expectations": "Assistance in expanding, implementing and documenting software components and systems within established processes."
+        },
+        "PC08": {
+          "title": "Senior Software Engineer",
+          "expectations": "Independently expand, implement and document software components and systems according to clearly defined tasks (e.g. processing of planned tasks from the backlog)."
+        },
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Independently design, expand, implement, and document software components and systems. Collaborate on the introduction of new technologies or architectures (e.g. changeover of components including active participation in the planning of tasks for this)."
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Independently design, expand, implement, and document software components and systems. Recognize and understand the causes of complex problems, assess their effects and design suitable solutions for their own area of responsibility (e.g. by introducing new technologies or architectures)."
+        }
+      }
+    },
+    "processes": {
+      "name": "Process Development & Improvement",
+      "description": "Understanding and improving development processes",
+      "levels": {
+        "PC06": {
+          "title": "Junior Software Engineer",
+          "expectations": "Development according to central development processes and team development and operating processes with the close guidance and support of a specialist."
+        },
+        "PC07": {
+          "title": "Software Engineer",
+          "expectations": "Development according to central development processes and team development and operating processes with the support of a specialist."
+        },
+        "PC08": {
+          "title": "Senior Software Engineer",
+          "expectations": "Development according to central development processes and team development and operational processes. Assist in improving team internal development and operational processes."
+        },
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Design and coordinate the team's internal development process. Support in the improvement of central development and operational processes (e.g. QM)."
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Design and coordinate the team's internal development process. Support in the improvement of central development and operational processes (e.g. QM)."
+        }
+      }
+    },
+    "quality": {
+      "name": "Quality Assurance",
+      "description": "Ensuring and improving software quality",
+      "levels": {
+        "PC06": {
+          "title": "Junior Software Engineer",
+          "expectations": "Familiarize to ongoing quality control within the scope of existing concepts."
+        },
+        "PC07": {
+          "title": "Software Engineer",
+          "expectations": "Contribute to ongoing quality control within the scope of existing concepts."
+        },
+        "PC08": {
+          "title": "Senior Software Engineer",
+          "expectations": "Responsibility for the ongoing quality control within the scope of existing concepts."
+        },
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Responsibility for the ongoing quality control and involvement in the introduction of new quality control concepts."
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Responsibility for the ongoing quality control. Development and implementation of quality control concepts."
+        }
+      }
+    },
+    "error_analysis_repair": {
+      "name": "Error Analysis & Repair",
+      "description": "Debugging and problem-solving capabilities",
+      "levels": {
+        "PC06": {
+          "title": "Junior Software Engineer",
+          "expectations": "Assist with error analysis throughout the development process and developing proposed solutions.",
+          "scope": "Component level"
+        },
+        "PC07": {
+          "title": "Software Engineer",
+          "expectations": "Assist with error analysis throughout the development process and independently develop and implement solutions. Evaluate the effects on a subsystem.",
+          "scope": "Subsystem level"
+        },
+        "PC08": {
+          "title": "Senior Software Engineer",
+          "expectations": "Independent error analysis throughout the development process as well as independent development and implementation of solution approaches. Evaluation of the effects on the internal system.",
+          "scope": "System level"
+        },
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Independent error analysis throughout the entire development process as well as independent development and implementation of solution approaches and evaluation of the effects on the environment.",
+          "scope": "System + environment"
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Independent error analysis throughout the entire development process as well as independent development and implementation of solution approaches and evaluation of the effects on the environment.",
+          "scope": "Organization-wide impact"
+        }
+      }
+    },
+    "new_technologies": {
+      "name": "Technology Adoption",
+      "description": "Learning and implementing new technologies",
+      "levels": {
+        "PC06": {
+          "title": "Junior Software Engineer",
+          "expectations": "Familiarize with already used technologies within their field of work."
+        },
+        "PC07": {
+          "title": "Software Engineer",
+          "expectations": "Familiarize with new technologies."
+        },
+        "PC08": {
+          "title": "Senior Software Engineer",
+          "expectations": "Familiarize with new technologies and their use in software components and systems under supervision."
+        },
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Collaborate in the implementation of new technologies in software components and systems."
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Identify trends, assess their significance for their own area of responsibility, and implement them."
+        }
+      }
+    },
+    "operations": {
+      "name": "Operations & SRE",
+      "description": "System reliability, security, availability, and scalability",
+      "levels": {
+        "PC06": {
+          "title": "Junior Software Engineer",
+          "expectations": "Familiarize with working on monitoring and assuring guaranteed system or service characteristics according to associated concepts (e.g., security, availability, and scalability)."
+        },
+        "PC07": {
+          "title": "Software Engineer",
+          "expectations": "Preliminary work to monitor and assure guaranteed system or service characteristics according to associated concepts (e.g., security, availability, and scalability)."
+        },
+        "PC08": {
+          "title": "Senior Software Engineer",
+          "expectations": "Contribute to monitoring and assurance of guaranteed system or service characteristics in accordance with associated concepts (e.g., security, availability, and scalability)."
+        },
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Monitor and assure guaranteed system or service characteristics and participate in the creation of associated concepts (e.g., security, availability, and scalability)."
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Monitor and assure guaranteed system or service characteristics and create associated concepts (e.g., security, availability, and scalability)."
+        }
+      }
+    },
+    "architecture": {
+      "name": "Architecture & System Design",
+      "description": "System architecture and technical concept development",
+      "levels": {
+        "PC08": {
+          "title": "Senior Software Engineer",
+          "expectations": "Detail technical concepts for individual components within the framework of a given system architecture."
+        },
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Contribute in the creation and implementation of technical concepts for systems and components."
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Develop and implement technical concepts for systems and components, assess the impact on the environment and coordinate with other agencies as necessary."
+        }
+      }
+    },
+    "cicd_infrastructure": {
+      "name": "CI/CD Infrastructure",
+      "description": "Build, deployment, and automation infrastructure",
+      "levels": {
+        "PC06": {
+          "title": "Junior Software Engineer",
+          "expectations": "Familiarize on the maintenance of the Continuous Integration and Delivery infrastructure (e.g. build server, ...)."
+        },
+        "PC07": {
+          "title": "Software Engineer",
+          "expectations": "Collaborate on the maintenance of the Continuous Integration and Delivery infrastructure (e.g. build server, ...)."
+        },
+        "PC08": {
+          "title": "Senior Software Engineer",
+          "expectations": "Maintenance of Continuous Integration and Delivery infrastructure (e.g. build server, ...)."
+        },
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Maintain and assist in building and improving continuous integration and delivery infrastructure (e.g. build server, ...)."
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Plan and select continuous integration and delivery infrastructure (e.g. build server) according to technical and commercial aspects. Build and improve it."
+        }
+      }
+    },
+    "knowledge_exchange": {
+      "name": "Knowledge Sharing & Mentorship",
+      "description": "Sharing expertise and developing others",
+      "levels": {
+        "PC06": {
+          "title": "Junior Software Engineer",
+          "expectations": "Attend in knowledge exchange formats, both within their own team and the department."
+        },
+        "PC07": {
+          "title": "Software Engineer",
+          "expectations": "Actively participate in knowledge exchange formats, both within their own team and the department."
+        },
+        "PC08": {
+          "title": "Senior Software Engineer",
+          "expectations": "Actively sharing work results and acquired expertise, for example, from conferences and trainings."
+        },
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Actively sharing work results and acquired expertise, for example, from conferences and trainings. Orientation of new colleagues."
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Actively sharing existing technical expertise. Guidance from colleagues (e.g. professional, technical or personal mentoring)."
+        }
+      }
+    },
+    "communication": {
+      "name": "Technical Communication",
+      "description": "Communicating technical decisions and representing the team",
+      "levels": {
+        "PC09": {
+          "title": "Lead Software Engineer",
+          "expectations": "Provide comprehensive advice on technical issues within the team. Occasionally represent the technical perspective on behalf of the team in decision making sessions."
+        },
+        "PC10": {
+          "title": "Principal Software Engineer",
+          "expectations": "Provide comprehensive advice on technical issues, including across projects and divisions. Routinely represent the technical perspective on behalf of the team in decision making sessions."
+        }
+      }
+    }
+  },
+  "architect_competencies": {
+    "requirements_engineering": {
+      "name": "Requirements Engineering",
+      "description": "Gathering and evaluating requirements",
+      "architect": {
+        "pay_class": "PC09",
+        "expectations": "Collection and documentation as well as technical evaluation of functional and non-functional requirements."
+      },
+      "senior_architect": {
+        "pay_class": "PC10",
+        "expectations": "Collection and documentation as well as technical evaluation of functional and non-functional requirements across several teams."
+      }
+    },
+    "conception_design": {
+      "name": "Conception & Design",
+      "description": "Architecture development and implementation",
+      "architect": {
+        "pay_class": "PC09",
+        "expectations": "Development of architecture concepts. Ensuring technical feasibility and successful implementations, managing technical risks and taking business aspects as well as applicable regulations and standards into account."
+      },
+      "senior_architect": {
+        "pay_class": "PC10",
+        "expectations": "Development of architecture concepts. Ensuring technical feasibility and successful implementations, managing technical risks and taking business aspects as well as applicable regulations and standards into account. Consideration of team structures - enabling parallel (scaling) processing of development tasks derived from the architecture specification. Consideration of the available skills and experience of the development team when planning technology and architecture specifications."
+      }
+    },
+    "stakeholder_management": {
+      "name": "Stakeholder Management",
+      "description": "Managing relationships and communicating with stakeholders",
+      "architect": {
+        "pay_class": "PC09",
+        "expectations": "Responsible for concepts and design of solutions towards stakeholders. Communicates in a manner that is appropriate to the target audience and at the correct technical level of abstraction. Collaborates with Project Managers and Product Owners to create work packages and effort estimates."
+      },
+      "senior_architect": {
+        "pay_class": "PC10",
+        "expectations": "Responsible for concepts and design of solutions towards stakeholders. Active stakeholder management and planning of required technical refactorings in the overall system. Communicates in a target group oriented manner and at the right technical level. Collaborates with Project Managers and Product Owners to create work packages and effort estimates."
+      }
+    },
+    "project_scope": {
+      "name": "Project & Product Scope",
+      "description": "Scale of project responsibility",
+      "architect": {
+        "pay_class": "PC09",
+        "project_category": "D",
+        "expectations": "Responsible for the architecture of a project or product that falls under Bosch.IO Project Impact Category D. This is also applicable to products."
+      },
+      "senior_architect": {
+        "pay_class": "PC10",
+        "project_category": "C",
+        "expectations": "Responsible for the architecture of a project or product that falls under Bosch.IO Project Impact Category C. This is also applicable to products."
+      }
+    },
+    "innovation": {
+      "name": "Innovation & Technology Trends",
+      "description": "Identifying and incorporating technology trends",
+      "architect": {
+        "pay_class": "PC09",
+        "expectations": "Knowing technology trends, assessing their importance to their own team, and incorporating them into their own solutions."
+      },
+      "senior_architect": {
+        "pay_class": "PC10",
+        "expectations": "Knowing and recognizing technology trends, on the market and within the Bosch Group, assessing their significance for one's own team and incorporating them into their own solutions."
+      }
+    },
+    "development_team_support": {
+      "name": "Development Team Support",
+      "description": "Supporting and guiding development teams",
+      "shared": {
+        "expectations": "Advise development team on planning, organization and feasibility of requirements, concepts and designs. Responsible for planning the fixing of technical debt into the development process. Responsible for creating and ensuring a testing strategy is in place."
+      }
+    },
+    "presales": {
+      "name": "Pre-Sales Activities",
+      "description": "Technical support for sales and business development",
+      "architect": {
+        "pay_class": "PC09",
+        "expectations": "Preparation and implementation of pre-sales activities (e.g. preparation PoC, presentations, technical parts of the offer, cost estimation)."
+      },
+      "senior_architect": {
+        "pay_class": "PC10",
+        "expectations": "Preparation and implementation of pre-sales activities (e.g. preparation PoC, presentations, technical parts of the offer, cost estimation). Feed back insights from pre-sales discussions to create proposals for strategic and technical direction."
+      }
+    },
+    "knowledge_exchange_architect": {
+      "name": "Knowledge Exchange (Architect)",
+      "description": "Shaping and sharing technology landscape knowledge",
+      "architect": {
+        "pay_class": "PC09",
+        "expectations": "Helping to shape the technology landscape in their own area."
+      },
+      "senior_architect": {
+        "pay_class": "PC10",
+        "expectations": "Design, implement and facilitate knowledge sharing both within the team and with stakeholders and at the interface with other teams. Define the technology landscape beyond the domain."
+      }
+    },
+    "documentation": {
+      "name": "Architecture Documentation",
+      "description": "Maintaining architecture documentation and decisions",
+      "shared": {
+        "expectations": "Responsible for ensuring documentation is up to date. Common architecture documentation standards are applied and architecture decisions are documented traceable to requirements."
+      }
+    }
+  },
+  "proficiency_mapping": {
+    "description": "Mapping between proficiency levels in different systems",
+    "excel_to_standard": {
+      "1st": "beginner",
+      "2nd": "intermediate",
+      "3rd": "advanced"
+    },
+    "standard_levels": [
+      {
+        "level": "beginner",
+        "description": "Learning and developing fundamental skills with guidance",
+        "typical_pay_classes": [
+          "PC06",
+          "PC07"
+        ]
+      },
+      {
+        "level": "intermediate",
+        "description": "Working independently on standard tasks",
+        "typical_pay_classes": [
+          "PC07",
+          "PC08"
+        ]
+      },
+      {
+        "level": "advanced",
+        "description": "Expert-level proficiency, mentoring others",
+        "typical_pay_classes": [
+          "PC08",
+          "PC09",
+          "PC10"
+        ]
+      },
+      {
+        "level": "expert",
+        "description": "Industry-leading expertise, defining standards",
+        "typical_pay_classes": [
+          "PC09",
+          "PC10"
+        ]
+      }
+    ]
+  }
+}

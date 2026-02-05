@@ -1,0 +1,494 @@
+{
+  "skillsets": [
+    {
+      "name": "AWS Platform & Services (Data)",
+      "description": "AWS Lambda, AWS ROS, AWS Redshift, AWS S3 Data Pipeline, Glue, AWS Services (EC2, S3, RDS, etc.)",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Alteryx (Data)",
+      "description": "Alteryx Workflow Design, Data Analysis",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Ansible (Data)",
+      "description": "Automation, Configuration Management",
+      "category": "Niche",
+      "roles": "Data Analyst",
+      "is_data_skill": true
+    },
+    {
+      "name": "Azure Platform & Services (Data)",
+      "description": "ADLS, Databricks, DevOps, Event Hubs, Stream Analytics, Synapse Analytics, Unity catalogue, CLI & Power Shell, Data Fabric",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "BODS (Data)",
+      "description": "Business Objects Data Services",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Big Data Technologies (Data)",
+      "description": "Hadoop, Kafka, Spark, Hbase, Hive, Airflow, Nifi, Pig, Elastic Search, Flink,Flume,Camel, Spoop",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Celonis (Data)",
+      "description": "Process Mining",
+      "category": "Niche",
+      "roles": "Data Analyst, Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Data Analytics_OLD (Data)",
+      "description": "Not in use anymore",
+      "category": "Inactive",
+      "roles": "Data Analyst",
+      "is_data_skill": true
+    },
+    {
+      "name": "Data Architecture (Data)",
+      "description": "Data Governance, Data Modeling, Data Warehousing",
+      "category": "Niche",
+      "roles": "Data Architect",
+      "is_data_skill": true
+    },
+    {
+      "name": "Data Consultancy (Data)",
+      "description": "Data governance, Machine Learning, Management consulting, Databases, Data analysis, Datawarehousing, Data mining, Data modeling, Predictive analytics, Business Inteligence",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Data Engineering & Warehousing_OLD (Data)",
+      "description": "Not in use anymore",
+      "category": "Inactive",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Data Mining_OLD (Data)",
+      "description": "Not in use anymore",
+      "category": "Inactive",
+      "roles": "Data Modeler",
+      "is_data_skill": true
+    },
+    {
+      "name": "Data Modeling (Data)",
+      "description": "Relational, Dimensional, ER, NO SQL, and Temporal modeling",
+      "category": "Standard",
+      "roles": "Data Modeler",
+      "is_data_skill": true
+    },
+    {
+      "name": "Data Vault Modeling (Data)",
+      "description": "Data Vault Modeling Techniques",
+      "category": "Advanced",
+      "roles": "Data Modeler",
+      "is_data_skill": true
+    },
+    {
+      "name": "DataOps Technologies (Data)",
+      "description": "DataDog, Azure Cloud Services, Snowflake, AWS Cloud Services, Google Cloud, Python, Java, Scala, ETL, API, Hadoop, Apache Spark, IAC - Teraform & Pulumi",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Databricks (Data)",
+      "description": "Databricks",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Deep Learning (Data)",
+      "description": "Deep Learning Frameworks (TensorFlow, PyTorch), Neural Networks",
+      "category": "Advanced",
+      "roles": "Data Scientist",
+      "is_data_skill": true
+    },
+    {
+      "name": "Generative AI (Data)",
+      "description": "Usage, understanding, application generative AI models",
+      "category": "Advanced",
+      "roles": "Data Scientist",
+      "is_data_skill": true
+    },
+    {
+      "name": "Google Platform & Services (Data)",
+      "description": "Google cloud, Google analytics",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "IBM Planning Analytics (Data)",
+      "description": "",
+      "category": "Niche",
+      "roles": "Data Analyst",
+      "is_data_skill": true
+    },
+    {
+      "name": "JavaScript (Data)",
+      "description": "JavaScript Programming",
+      "category": "Standard",
+      "roles": "Data Analyst, Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "KNIME (Data)",
+      "description": "KNIME Workflow Design, Data Analytics",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Knowledge Graphs (Data)",
+      "description": "GraphQL, ANZO, Stardog, Apache AGE",
+      "category": "Niche",
+      "roles": "Data Scientist",
+      "is_data_skill": true
+    },
+    {
+      "name": "ML Engineering (Data)",
+      "description": "Data preparation, Model (re)training, Statistical analysis, ML Deployment, R programming",
+      "category": "Advanced",
+      "roles": "Data Scientist",
+      "is_data_skill": true
+    },
+    {
+      "name": "Microsoft BI (Data)",
+      "description": "SSIS, SSAS, SSRS",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Microsoft Fabric (Data)",
+      "description": "",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Microsoft Power BI (Data)",
+      "description": "Power BI, DAX",
+      "category": "Standard",
+      "roles": "Data Analyst",
+      "is_data_skill": true
+    },
+    {
+      "name": "Microsoft Power Platform (Data)",
+      "description": "Power Apps, Power Automate, Power Virtual Agents, Power BI",
+      "category": "Standard",
+      "roles": "Data Analyst",
+      "is_data_skill": true
+    },
+    {
+      "name": "Microsoft SQL Server administration (Data)",
+      "description": "Database Administration, Optimization, Performance Tuning",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "MySQL (Data)",
+      "description": "",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Non-SAP MDM_OLD (Data)",
+      "description": "Not in use anymore",
+      "category": "Inactive",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "OLD_Data Analytics",
+      "description": "Not in use anymore",
+      "category": "Inactive",
+      "roles": "Data Analyst",
+      "is_data_skill": true
+    },
+    {
+      "name": "OLD_Data Streaming / ETL / Ingestion",
+      "description": "Not in use anymore",
+      "category": "Inactive",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "OLD_Data Visualization",
+      "description": "Not in use anymore",
+      "category": "Inactive",
+      "roles": "Data Analyst",
+      "is_data_skill": true
+    },
+    {
+      "name": "OLD_Data Warehousing and Data Platform",
+      "description": "Not in use anymore",
+      "category": "Inactive",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "OLD_ML Engineering",
+      "description": "Not in use anymore",
+      "category": "Inactive",
+      "roles": "Data Scientist",
+      "is_data_skill": true
+    },
+    {
+      "name": "Oracle APEX (Data)",
+      "description": "Low-code application development",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Oracle Cloud (Data)",
+      "description": "",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Oracle administration (Data)",
+      "description": "Database Administration, Optimization, Performance Tuning",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "PL/SQL (Data)",
+      "description": "Programming, Optimization, Performance tuning, Standard programming, Partitioning",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "PostgreSQL (Data)",
+      "description": "",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "REST API (Data)",
+      "description": "REST API Development and Integration",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP ABAP (Data)",
+      "description": "CDS Views, Debugging",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP AMDP Scripts (Data)",
+      "description": "SAP Scripts",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP Analytics Cloud (SAC) (Data)",
+      "description": "Reporting, Planning, Scripting",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP BDC (Data)",
+      "description": "SAP Business Data Cloud",
+      "category": "Niche",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP BTP (Data)",
+      "description": "SAP BTP",
+      "category": "Niche",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP BW (Data)",
+      "description": "SAP BW Modeling & Reporting",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP BW on HANA (Data)",
+      "description": "SAP BW on HANA (Data)",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP BW/4HANA (Data)",
+      "description": "SAP BW/4HANA",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP CDS Views (Data)",
+      "description": "SAP CDS Views",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP Databricks (Data)",
+      "description": "SAP Databricks including AI/ML",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP Datasphere (Data)",
+      "description": "SAP Datasphere",
+      "category": "Niche",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP Power Designer (Data)",
+      "description": "Data Modelling and Design tool",
+      "category": "Advanced",
+      "roles": "Data Modeler",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP S/4HANA Embedded Analytics (Data)",
+      "description": "Analytics Annotations, Multidimensional Reporting, Data modeling with CDS Views , Experience in Extensibility",
+      "category": "Niche",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP SLT (Data)",
+      "description": "Data extraction and delta handling",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP Solution Manager (Data)",
+      "description": "Transport mechanism, change handling",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SAP analysis tools (Data)",
+      "description": "SAP AfO, SAP BI, SAC",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "SQL (Data)",
+      "description": "",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Scala (Data)",
+      "description": "",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Semantic Modeling (Data)",
+      "description": "Steady, ANZO",
+      "category": "Advanced",
+      "roles": "Data Modeler",
+      "is_data_skill": true
+    },
+    {
+      "name": "Snowflake (Data)",
+      "description": "",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Splunk (Data)",
+      "description": "",
+      "category": "Standard",
+      "roles": "Data Analyst",
+      "is_data_skill": true
+    },
+    {
+      "name": "Steady (Data)",
+      "description": "",
+      "category": "Standard",
+      "roles": "Data Architect",
+      "is_data_skill": true
+    },
+    {
+      "name": "Stibo STEP MDM (Data)",
+      "description": "",
+      "category": "Niche",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "T-SQL (Data)",
+      "description": "Optimization, Performance tuning, Standard programming, Partitioning",
+      "category": "Standard",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "Tableau (Data)",
+      "description": "",
+      "category": "Standard",
+      "roles": "Data Analyst",
+      "is_data_skill": true
+    },
+    {
+      "name": "Talend (Data)",
+      "description": "",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "WhereScape (Data)",
+      "description": "",
+      "category": "Niche",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    },
+    {
+      "name": "dbt (Data)",
+      "description": "",
+      "category": "Advanced",
+      "roles": "Data Engineer",
+      "is_data_skill": true
+    }
+  ]
+}
