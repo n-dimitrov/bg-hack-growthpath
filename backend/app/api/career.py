@@ -338,3 +338,109 @@ def get_all_career_levels(track: Optional[str] = None, db: Session = Depends(get
         ],
         "total": len(levels)
     }
+
+
+@router.get("/user-plans/{user_id}")
+def get_user_plans(user_id: int, db: Session = Depends(get_db)):
+    """
+    Get all development plans for a user
+
+    Args:
+        user_id: User ID
+
+    Returns:
+        List of development plans with progress
+    """
+    plans = db.query(DevelopmentPlan).filter(
+        DevelopmentPlan.user_id == user_id
+    ).order_by(DevelopmentPlan.created_date.desc()).all()
+
+    result = []
+    for plan in plans:
+        objectives = plan.objectives
+        total = len(objectives)
+        completed = sum(1 for obj in objectives if obj.status == 'completed')
+        in_progress = sum(1 for obj in objectives if obj.status == 'in_progress')
+        not_started = sum(1 for obj in objectives if obj.status == 'not_started')
+
+        result.append({
+            "plan_id": plan.id,
+            "current_level": plan.current_level,
+            "target_level": plan.target_level,
+            "created_date": str(plan.created_date),
+            "target_date": str(plan.target_date) if plan.target_date else None,
+            "status": plan.status,
+            "total_objectives": total,
+            "completed_objectives": completed,
+            "in_progress_objectives": in_progress,
+            "not_started_objectives": not_started,
+            "completion_percentage": round((completed / total * 100) if total > 0 else 0, 1)
+        })
+
+    return {"plans": result, "total": len(result)}
+
+
+@router.put("/objective/{objective_id}")
+def update_objective_status(objective_id: int, status: str, db: Session = Depends(get_db)):
+    """
+    Update learning objective status
+
+    Args:
+        objective_id: Objective ID
+        status: New status (not_started, in_progress, completed)
+
+    Returns:
+        Updated objective
+    """
+    valid_statuses = ['not_started', 'in_progress', 'completed']
+    if status not in valid_statuses:
+        raise HTTPException(status_code=400, detail=f"Invalid status. Must be one of: {valid_statuses}")
+
+    objective = db.query(LearningObjective).filter(LearningObjective.id == objective_id).first()
+
+    if not objective:
+        raise HTTPException(status_code=404, detail="Objective not found")
+
+    objective.status = status
+    db.commit()
+    db.refresh(objective)
+
+    return {
+        "id": objective.id,
+        "description": objective.description,
+        "status": objective.status,
+        "priority": objective.priority,
+        "message": f"Objective status updated to '{status}'"
+    }
+
+
+@router.put("/plan/{plan_id}/status")
+def update_plan_status(plan_id: int, status: str, db: Session = Depends(get_db)):
+    """
+    Update development plan status
+
+    Args:
+        plan_id: Plan ID
+        status: New status (active, completed, cancelled)
+
+    Returns:
+        Updated plan
+    """
+    valid_statuses = ['active', 'completed', 'cancelled']
+    if status not in valid_statuses:
+        raise HTTPException(status_code=400, detail=f"Invalid status. Must be one of: {valid_statuses}")
+
+    plan = db.query(DevelopmentPlan).filter(DevelopmentPlan.id == plan_id).first()
+
+    if not plan:
+        raise HTTPException(status_code=404, detail="Plan not found")
+
+    plan.status = status
+    db.commit()
+    db.refresh(plan)
+
+    return {
+        "plan_id": plan.id,
+        "status": plan.status,
+        "message": f"Plan status updated to '{status}'"
+    }

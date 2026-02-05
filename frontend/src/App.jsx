@@ -5,6 +5,7 @@ import CareerPathVisualizer from './components/CareerPathVisualizer'
 import SkillsCatalog from './components/SkillsCatalog'
 import DashboardNew from './components/Dashboard'
 import CompetencyDetails from './components/CompetencyDetails'
+import ProgressTracker from './components/ProgressTracker'
 import './styles/App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Link to="/career-paths" style={linkStyle}>Career Paths</Link>
             <Link to="/skills" style={linkStyle}>Skills Catalog</Link>
             <Link to="/gap-analysis" style={linkStyle}>Gap Analysis</Link>
+            <Link to="/progress" style={linkStyle}>Progress Tracker</Link>
             <Link to="/assessment" style={linkStyle}>Assessment</Link>
           </nav>
         </header>
@@ -29,6 +31,7 @@ function App() {
             <Route path="/career/:track/:payClass" element={<CompetencyDetails />} />
             <Route path="/skills" element={<SkillsCatalog />} />
             <Route path="/gap-analysis" element={<DashboardNew />} />
+            <Route path="/progress" element={<ProgressTracker />} />
             <Route path="/assessment" element={<AssessmentForm />} />
           </Routes>
         </main>
