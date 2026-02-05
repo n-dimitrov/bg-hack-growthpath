@@ -6,7 +6,66 @@
 - Node.js 18+ and npm installed
 - Git
 
-## Backend Setup
+## Quick Start (Recommended)
+
+### Start Both Backend and Frontend
+
+**On macOS/Linux:**
+```bash
+./start-all.sh
+```
+
+**On Windows:**
+```bash
+start-all.bat
+```
+
+This will automatically:
+- Set up virtual environment and install Python dependencies
+- Seed the database with sample competencies
+- Start the backend API server
+- Install npm dependencies
+- Start the frontend development server
+
+### Start Backend Only
+
+**On macOS/Linux:**
+```bash
+cd backend
+./start.sh
+```
+
+**On Windows:**
+```bash
+cd backend
+start.bat
+```
+
+The API will be available at `http://localhost:8000`
+API documentation at `http://localhost:8000/docs`
+
+### Start Frontend Only
+
+**On macOS/Linux:**
+```bash
+cd frontend
+./start.sh
+```
+
+**On Windows:**
+```bash
+cd frontend
+start.bat
+```
+
+The frontend will be available at `http://localhost:3000`
+
+## Manual Setup
+
+<details>
+<summary>Click to expand manual setup instructions</summary>
+
+### Backend Setup
 
 1. Navigate to the backend directory:
 ```bash
@@ -33,9 +92,9 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-5. Create a `.env` file (optional, defaults to SQLite):
+5. Seed the database:
 ```bash
-cp .env.example .env
+python seed_data.py
 ```
 
 6. Run the backend server:
@@ -43,10 +102,7 @@ cp .env.example .env
 python run.py
 ```
 
-The API will be available at `http://localhost:8000`
-API documentation at `http://localhost:8000/docs`
-
-## Frontend Setup
+### Frontend Setup
 
 1. Navigate to the frontend directory:
 ```bash
@@ -63,7 +119,7 @@ npm install
 npm run dev
 ```
 
-The frontend will be available at `http://localhost:3000`
+</details>
 
 ## Initial Data Setup
 
