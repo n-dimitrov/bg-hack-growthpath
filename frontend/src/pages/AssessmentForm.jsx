@@ -13,8 +13,17 @@ function AssessmentForm() {
 
   const loadCompetencies = async () => {
     try {
-      const data = await getCompetencies()
-      setCompetencies(data)
+      // Try the new career competencies API first
+      const response = await fetch('http://localhost:8000/api/career/competencies')
+      const data = await response.json()
+
+      if (data.competencies) {
+        setCompetencies(data.competencies)
+      } else {
+        // Fallback to old API
+        const oldData = await getCompetencies()
+        setCompetencies(oldData)
+      }
       setLoading(false)
     } catch (error) {
       console.error('Error loading competencies:', error)
@@ -53,12 +62,30 @@ function AssessmentForm() {
     { value: 4, label: 'Expert' }
   ]
 
-  if (loading) return <div>Loading...</div>
+  if (loading) {
+    return (
+      <div className="assessment-form">
+        <div className="loading">Loading competencies...</div>
+      </div>
+    )
+  }
+
+  if (!competencies || competencies.length === 0) {
+    return (
+      <div className="assessment-form">
+        <h2>Skill Self-Assessment</h2>
+        <div className="no-data">
+          <p>No competencies available yet.</p>
+          <p>Please check the Career Paths or Gap Analysis sections to explore competencies.</p>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="assessment-form">
       <h2>Skill Self-Assessment</h2>
-      <p>Rate your proficiency level for each competency</p>
+      <p>Rate your proficiency level for each competency ({competencies.length} total)</p>
 
       <form onSubmit={handleSubmit}>
         {competencies.map((competency) => (
