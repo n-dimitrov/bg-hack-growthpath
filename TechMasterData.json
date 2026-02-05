@@ -1,0 +1,1769 @@
+{
+  "metadata": {
+    "total_categories": 48,
+    "total_skills": 245,
+    "source": "TechMasterData.xlsx"
+  },
+  "hierarchical": [
+    {
+      "category": "AI Consulting and Development",
+      "skills": [
+        "AI Consulting and Development"
+      ],
+      "count": 1
+    },
+    {
+      "category": "API Design, Development & Consulting",
+      "skills": [
+        "API Design, Development & Consulting"
+      ],
+      "count": 1
+    },
+    {
+      "category": "API Security",
+      "skills": [
+        "API Gateway"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Angular",
+      "skills": [
+        "Angular 14",
+        "Angular 17",
+        "Angular JS",
+        "Angular Material"
+      ],
+      "count": 4
+    },
+    {
+      "category": "Automation Testing",
+      "skills": [
+        "Appium",
+        "C#",
+        "CBTA",
+        "CodeceptJS",
+        "CodedUi",
+        "Cypress",
+        "Groovy",
+        "Java - Automation",
+        "Javascript - AT",
+        "LeanFT",
+        "Nunit",
+        "Puppeteer",
+        "PyTest",
+        "Python",
+        "ReactJs",
+        "RestAssured",
+        "RestSharp",
+        "Robot framework",
+        "Selenium",
+        "Service Now Automation Framework",
+        "TestNG",
+        "Tosca",
+        "Typescript",
+        "UFT",
+        "VB Script",
+        "pyrequest"
+      ],
+      "count": 26
+    },
+    {
+      "category": "Backend Reporting Tools",
+      "skills": [
+        "Jasper",
+        "iReport"
+      ],
+      "count": 2
+    },
+    {
+      "category": "CI/CD",
+      "skills": [
+        "Artifactory",
+        "Azure DevOps",
+        "BitBucket",
+        "Git",
+        "Gradle",
+        "Jenkins",
+        "Liquibase",
+        "Maven",
+        "SonarQube",
+        "TeamCity",
+        "Tortoise SVN",
+        "Trackship (Azure Repos)"
+      ],
+      "count": 12
+    },
+    {
+      "category": "Container technologies",
+      "skills": [
+        "Azure Spring Apps",
+        "Docker",
+        "Kubernetes",
+        "Openshift"
+      ],
+      "count": 4
+    },
+    {
+      "category": "Data Integration & Data Services",
+      "skills": [
+        "Data Integration & Data Services"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Database",
+      "skills": [
+        "Datalake - Redlake",
+        "H2 Database",
+        "Hadoop",
+        "MS SQL (Azure SQL Databases)",
+        "MYSQL",
+        "MongoDB",
+        "Oracle Forms",
+        "Oracle PL/SQL",
+        "Oracle Reports",
+        "Oracle SQL",
+        "PostgreSQL",
+        "SQL Server",
+        "ScyllaDB",
+        "Sybase"
+      ],
+      "count": 14
+    },
+    {
+      "category": "Development Management Tool",
+      "skills": [
+        "Jira"
+      ],
+      "count": 1
+    },
+    {
+      "category": "DotNet Technologies",
+      "skills": [
+        "ASP.Net MVC",
+        "Asp.Net classic",
+        "C#",
+        "Dapper",
+        "Dotnet Core",
+        "Entity Framework",
+        "IIS",
+        "WCF",
+        "Web API"
+      ],
+      "count": 9
+    },
+    {
+      "category": "ERP Automation",
+      "skills": [
+        "Worksoft Certify"
+      ],
+      "count": 1
+    },
+    {
+      "category": "ERP Test Management",
+      "skills": [
+        "JiVS S/4 HANA Migration Tool"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Frontend Testing",
+      "skills": [
+        "Jasmine",
+        "Karma"
+      ],
+      "count": 2
+    },
+    {
+      "category": "IOT",
+      "skills": [
+        "IoT Application Architecture & Development"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Java Technologies",
+      "skills": [
+        "Java",
+        "Struts"
+      ],
+      "count": 2
+    },
+    {
+      "category": "Low Code Development",
+      "skills": [
+        "Bizapp",
+        "Knime",
+        "MS Power Platform",
+        "MS PowerBI",
+        "Mendix",
+        "Oracle Apex",
+        "Oracle Jet",
+        "Outsystems",
+        "Pentaho Data Integration(PDI)",
+        "Salesforce",
+        "Service Now"
+      ],
+      "count": 11
+    },
+    {
+      "category": "Manual Testing",
+      "skills": [
+        "API",
+        "Database",
+        "Device Testing",
+        "IoT",
+        "MS CRM testing",
+        "Mobile Application",
+        "Salesforce Testing",
+        "Sharepoint Tesing",
+        "Web Application"
+      ],
+      "count": 9
+    },
+    {
+      "category": "Message Broker Technology",
+      "skills": [
+        "Solace"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Messaging System",
+      "skills": [
+        "JMS"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Microsoft",
+      "skills": [
+        "SharePoint"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Microsoft Power Platform",
+      "skills": [
+        "Power Apps",
+        "Power Automate",
+        "Power Virtual Agent"
+      ],
+      "count": 3
+    },
+    {
+      "category": "Middleware",
+      "skills": [
+        "Application Data Integration",
+        "Data Interface Development",
+        "Data Pipeline Development",
+        "Distributed Microservices Architecture",
+        "ITMS - Inventory Management Solution",
+        "Message Oriented Middleware Development",
+        "Message Protocols",
+        "Xceptor"
+      ],
+      "count": 8
+    },
+    {
+      "category": "Mobile App Development",
+      "skills": [
+        "Flutter",
+        "Java - Mobile",
+        "Kotlin",
+        "Objective C",
+        "React Native"
+      ],
+      "count": 5
+    },
+    {
+      "category": "Oracle",
+      "skills": [
+        "Oracle ADF"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Others",
+      "skills": [
+        "(PCF/TAS), Openshift",
+        "Agile Methodologies",
+        "Android",
+        "Ansible Terraform",
+        "Apache Solr",
+        "Apache Spark",
+        "Appdynamics",
+        "Axway",
+        "Azure OpenAI",
+        "Backend Framework",
+        "C Programming",
+        "C++",
+        "Cloud Kubernetes",
+        "CloudEra Impala",
+        "Commmerce Hybris",
+        "Deep learning",
+        "Django",
+        "Dynatrace",
+        "Elastic Search",
+        "Elk Stack",
+        "Flask",
+        "Frontend Framework",
+        "GoJS",
+        "Grafana",
+        "Handlebars",
+        "JSF",
+        "Junit & Mockito",
+        "Kanban",
+        "Kibana",
+        "ML/AI",
+        "Machine Learning",
+        "Neural Network",
+        "No Skills",
+        "Node.js",
+        "OIDC",
+        "OWASP ZAP",
+        "PHP",
+        "Postman",
+        "Python",
+        "Python / Python frameworks",
+        "SDLC",
+        "SOAPUI",
+        "Scala",
+        "Scaled Agile Framework",
+        "Scrum",
+        "Search Engine",
+        "Splunk",
+        "Sumologic",
+        "Swift",
+        "Tensorflow",
+        "Unix, Linux",
+        "VB.net",
+        "newrelic"
+      ],
+      "count": 53
+    },
+    {
+      "category": "PDJ - L1",
+      "skills": [
+        "L1 - Junior SW Engineer"
+      ],
+      "count": 1
+    },
+    {
+      "category": "PDJ - L2",
+      "skills": [
+        "L2 - Software Engineer"
+      ],
+      "count": 1
+    },
+    {
+      "category": "PDJ - L3",
+      "skills": [
+        "L3 - Senior Software Engineer"
+      ],
+      "count": 1
+    },
+    {
+      "category": "PDJ - L4",
+      "skills": [
+        "L4 - Staff Software Engineer"
+      ],
+      "count": 1
+    },
+    {
+      "category": "PDJ - L5",
+      "skills": [
+        "L5 - Principal Chief SW Engineer"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Performance Testing",
+      "skills": [
+        "Jmeter",
+        "Microfocus Loadrunner"
+      ],
+      "count": 2
+    },
+    {
+      "category": "RPA (Robotic Process Automation)",
+      "skills": [
+        "Automation Anywhere (A360)",
+        "UIPath"
+      ],
+      "count": 2
+    },
+    {
+      "category": "Reporting",
+      "skills": [
+        "Planisware",
+        "SSIS",
+        "SSRS"
+      ],
+      "count": 3
+    },
+    {
+      "category": "Rust",
+      "skills": [
+        "Rust"
+      ],
+      "count": 1
+    },
+    {
+      "category": "SAP",
+      "skills": [
+        "SAP Cloud Platform Integration",
+        "SAP Functional Expertise",
+        "SAP Web Dev."
+      ],
+      "count": 3
+    },
+    {
+      "category": "Scripting",
+      "skills": [
+        "Active directry",
+        "Hybris",
+        "PowerShell",
+        "SMT",
+        "Service Now",
+        "VB Script"
+      ],
+      "count": 6
+    },
+    {
+      "category": "Server",
+      "skills": [
+        "Apache Tomcat",
+        "Information Security and Privacy"
+      ],
+      "count": 2
+    },
+    {
+      "category": "Solution Architeture",
+      "skills": [
+        "AWS",
+        "Azure"
+      ],
+      "count": 2
+    },
+    {
+      "category": "Spring",
+      "skills": [
+        "Spring"
+      ],
+      "count": 1
+    },
+    {
+      "category": "SpringBoot",
+      "skills": [
+        "Hibernate",
+        "Job Runner",
+        "Spring Boot 2.0 + Spring Boot 1.5.9",
+        "Spring Boot 3.2.5",
+        "Spring Cloud",
+        "Spring Data",
+        "Spring Data JPA",
+        "Spring LDAP",
+        "Spring MVC",
+        "Spring Security"
+      ],
+      "count": 10
+    },
+    {
+      "category": "Technical Consultations",
+      "skills": [
+        "Service Now"
+      ],
+      "count": 1
+    },
+    {
+      "category": "Test Management",
+      "skills": [
+        "ERP -Test Management",
+        "Non ERP -Test Management"
+      ],
+      "count": 2
+    },
+    {
+      "category": "Test Management Tools",
+      "skills": [
+        "ALM",
+        "JAMA",
+        "Jira",
+        "Mircosoft Azure Devops",
+        "OpenText Octane",
+        "Service Now",
+        "SolMan",
+        "Test Rail",
+        "qTest"
+      ],
+      "count": 9
+    },
+    {
+      "category": "Web Development",
+      "skills": [
+        "AJAX",
+        "Bootstrap",
+        "Bryntum Library - Gantt Chart (Should Know Angular)",
+        "CSS",
+        "CSS 3, SCSS, Sass",
+        "Elasticsearch",
+        "Flexbox, Flexgrid",
+        "HTML",
+        "JQGrid",
+        "JSP",
+        "Javascript - WD",
+        "Log4j",
+        "React JS",
+        "TypeScript",
+        "Vue JS, Nuxt JS",
+        "Wijmo (Should Know Angular)",
+        "jQuery"
+      ],
+      "count": 17
+    },
+    {
+      "category": "Web Services",
+      "skills": [
+        "REST",
+        "SOAP"
+      ],
+      "count": 2
+    },
+    {
+      "category": "Workload Automation",
+      "skills": [
+        "Broadcom"
+      ],
+      "count": 1
+    }
+  ],
+  "flat": [
+    {
+      "parent_skill": "Mobile App Development",
+      "sub_skill": "Objective C",
+      "full_name": "Objective C ( Mobile App Development )"
+    },
+    {
+      "parent_skill": "Mobile App Development",
+      "sub_skill": "Kotlin",
+      "full_name": "Kotlin ( Mobile App Development )"
+    },
+    {
+      "parent_skill": "Mobile App Development",
+      "sub_skill": "Java - Mobile",
+      "full_name": "Java - Mobile ( Mobile App Development )"
+    },
+    {
+      "parent_skill": "Mobile App Development",
+      "sub_skill": "Flutter",
+      "full_name": "Flutter ( Mobile App Development )"
+    },
+    {
+      "parent_skill": "Mobile App Development",
+      "sub_skill": "React Native",
+      "full_name": "React Native ( Mobile App Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "Javascript - WD",
+      "full_name": "Javascript - WD ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "React JS",
+      "full_name": "React JS ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "Bootstrap",
+      "full_name": "Bootstrap ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "HTML",
+      "full_name": "HTML ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "CSS",
+      "full_name": "CSS ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "CSS 3, SCSS, Sass",
+      "full_name": "CSS 3, SCSS, Sass ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "Flexbox, Flexgrid",
+      "full_name": "Flexbox, Flexgrid ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "Vue JS, Nuxt JS",
+      "full_name": "Vue JS, Nuxt JS ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "jQuery",
+      "full_name": "jQuery ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "JSP",
+      "full_name": "JSP ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "AJAX",
+      "full_name": "AJAX ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "Wijmo (Should Know Angular)",
+      "full_name": "Wijmo (Should Know Angular) ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "TypeScript",
+      "full_name": "TypeScript ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "Bryntum Library - Gantt Chart (Should Know Angular)",
+      "full_name": "Bryntum Library - Gantt Chart (Should Know Angular) ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "Elasticsearch",
+      "full_name": "Elasticsearch ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "Log4j",
+      "full_name": "Log4j ( Web Development )"
+    },
+    {
+      "parent_skill": "Web Development",
+      "sub_skill": "JQGrid",
+      "full_name": "JQGrid ( Web Development )"
+    },
+    {
+      "parent_skill": "Angular",
+      "sub_skill": "Angular JS",
+      "full_name": "Angular JS ( Angular )"
+    },
+    {
+      "parent_skill": "Angular",
+      "sub_skill": "Angular Material",
+      "full_name": "Angular Material ( Angular )"
+    },
+    {
+      "parent_skill": "IOT",
+      "sub_skill": "IoT Application Architecture & Development",
+      "full_name": "IoT Application Architecture & Development ( IOT )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "Oracle Apex",
+      "full_name": "Oracle Apex ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "Oracle Jet",
+      "full_name": "Oracle Jet ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "Outsystems",
+      "full_name": "Outsystems ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "Pentaho Data Integration(PDI)",
+      "full_name": "Pentaho Data Integration(PDI) ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "MS PowerBI",
+      "full_name": "MS PowerBI ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "Bizapp",
+      "full_name": "Bizapp ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Middleware",
+      "sub_skill": "Application Data Integration",
+      "full_name": "Application Data Integration ( Middleware )"
+    },
+    {
+      "parent_skill": "Middleware",
+      "sub_skill": "Message Oriented Middleware Development",
+      "full_name": "Message Oriented Middleware Development ( Middleware )"
+    },
+    {
+      "parent_skill": "Middleware",
+      "sub_skill": "Data Pipeline Development",
+      "full_name": "Data Pipeline Development ( Middleware )"
+    },
+    {
+      "parent_skill": "Middleware",
+      "sub_skill": "Message Protocols",
+      "full_name": "Message Protocols ( Middleware )"
+    },
+    {
+      "parent_skill": "Middleware",
+      "sub_skill": "Data Interface Development",
+      "full_name": "Data Interface Development ( Middleware )"
+    },
+    {
+      "parent_skill": "Middleware",
+      "sub_skill": "Distributed Microservices Architecture",
+      "full_name": "Distributed Microservices Architecture ( Middleware )"
+    },
+    {
+      "parent_skill": "Middleware",
+      "sub_skill": "ITMS - Inventory Management Solution",
+      "full_name": "ITMS - Inventory Management Solution ( Middleware )"
+    },
+    {
+      "parent_skill": "Middleware",
+      "sub_skill": "Xceptor",
+      "full_name": "Xceptor ( Middleware )"
+    },
+    {
+      "parent_skill": "Solution Architeture",
+      "sub_skill": "Azure",
+      "full_name": "Azure ( Solution Architeture )"
+    },
+    {
+      "parent_skill": "Solution Architeture",
+      "sub_skill": "AWS",
+      "full_name": "AWS ( Solution Architeture )"
+    },
+    {
+      "parent_skill": "DotNet Technologies",
+      "sub_skill": "C#",
+      "full_name": "C# ( DotNet Technologies )"
+    },
+    {
+      "parent_skill": "DotNet Technologies",
+      "sub_skill": "ASP.Net MVC",
+      "full_name": "ASP.Net MVC ( DotNet Technologies )"
+    },
+    {
+      "parent_skill": "DotNet Technologies",
+      "sub_skill": "WCF",
+      "full_name": "WCF ( DotNet Technologies )"
+    },
+    {
+      "parent_skill": "DotNet Technologies",
+      "sub_skill": "Web API",
+      "full_name": "Web API ( DotNet Technologies )"
+    },
+    {
+      "parent_skill": "DotNet Technologies",
+      "sub_skill": "Entity Framework",
+      "full_name": "Entity Framework ( DotNet Technologies )"
+    },
+    {
+      "parent_skill": "DotNet Technologies",
+      "sub_skill": "Dotnet Core",
+      "full_name": "Dotnet Core ( DotNet Technologies )"
+    },
+    {
+      "parent_skill": "DotNet Technologies",
+      "sub_skill": "Asp.Net classic",
+      "full_name": "Asp.Net classic ( DotNet Technologies )"
+    },
+    {
+      "parent_skill": "Java Technologies",
+      "sub_skill": "Java",
+      "full_name": "Java ( Java Technologies )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Spring Boot 2.0 + Spring Boot 1.5.9",
+      "full_name": "Spring Boot 2.0 + Spring Boot 1.5.9 ( SpringBoot )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Spring Cloud",
+      "full_name": "Spring Cloud ( SpringBoot )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Spring Data",
+      "full_name": "Spring Data ( SpringBoot )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Spring Security",
+      "full_name": "Spring Security ( SpringBoot )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Spring LDAP",
+      "full_name": "Spring LDAP ( SpringBoot )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Spring Data JPA",
+      "full_name": "Spring Data JPA ( SpringBoot )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Spring MVC",
+      "full_name": "Spring MVC ( SpringBoot )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Hibernate",
+      "full_name": "Hibernate ( SpringBoot )"
+    },
+    {
+      "parent_skill": "Web Services",
+      "sub_skill": "REST",
+      "full_name": "REST ( Web Services )"
+    },
+    {
+      "parent_skill": "Web Services",
+      "sub_skill": "SOAP",
+      "full_name": "SOAP ( Web Services )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "Maven",
+      "full_name": "Maven ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "Gradle",
+      "full_name": "Gradle ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "Liquibase",
+      "full_name": "Liquibase ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "Artifactory",
+      "full_name": "Artifactory ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "Jenkins",
+      "full_name": "Jenkins ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "SonarQube",
+      "full_name": "SonarQube ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "Tortoise SVN",
+      "full_name": "Tortoise SVN ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "Git",
+      "full_name": "Git ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "BitBucket",
+      "full_name": "BitBucket ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "Azure DevOps",
+      "full_name": "Azure DevOps ( CI/CD )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "Trackship (Azure Repos)",
+      "full_name": "Trackship (Azure Repos) ( CI/CD )"
+    },
+    {
+      "parent_skill": "Container technologies",
+      "sub_skill": "Openshift",
+      "full_name": "Openshift ( Container technologies )"
+    },
+    {
+      "parent_skill": "Container technologies",
+      "sub_skill": "Docker",
+      "full_name": "Docker ( Container technologies )"
+    },
+    {
+      "parent_skill": "Container technologies",
+      "sub_skill": "Kubernetes",
+      "full_name": "Kubernetes ( Container technologies )"
+    },
+    {
+      "parent_skill": "API Design, Development & Consulting",
+      "sub_skill": "API Design, Development & Consulting",
+      "full_name": "API Design, Development & Consulting ( API Design, Development & Consulting )"
+    },
+    {
+      "parent_skill": "Data Integration & Data Services",
+      "sub_skill": "Data Integration & Data Services",
+      "full_name": "Data Integration & Data Services ( Data Integration & Data Services )"
+    },
+    {
+      "parent_skill": "AI Consulting and Development",
+      "sub_skill": "AI Consulting and Development",
+      "full_name": "AI Consulting and Development ( AI Consulting and Development )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "Oracle SQL",
+      "full_name": "Oracle SQL ( Database )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "Oracle PL/SQL",
+      "full_name": "Oracle PL/SQL ( Database )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "PostgreSQL",
+      "full_name": "PostgreSQL ( Database )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "SQL Server",
+      "full_name": "SQL Server ( Database )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "MS SQL (Azure SQL Databases)",
+      "full_name": "MS SQL (Azure SQL Databases) ( Database )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "Sybase",
+      "full_name": "Sybase ( Database )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "Oracle Forms",
+      "full_name": "Oracle Forms ( Database )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "Oracle Reports",
+      "full_name": "Oracle Reports ( Database )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "MYSQL",
+      "full_name": "MYSQL ( Database )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "MongoDB",
+      "full_name": "MongoDB ( Database )"
+    },
+    {
+      "parent_skill": "Reporting",
+      "sub_skill": "SSRS",
+      "full_name": "SSRS ( Reporting )"
+    },
+    {
+      "parent_skill": "Reporting",
+      "sub_skill": "SSIS",
+      "full_name": "SSIS ( Reporting )"
+    },
+    {
+      "parent_skill": "Reporting",
+      "sub_skill": "Planisware",
+      "full_name": "Planisware ( Reporting )"
+    },
+    {
+      "parent_skill": "Microsoft Power Platform",
+      "sub_skill": "Power Virtual Agent",
+      "full_name": "Power Virtual Agent ( Microsoft Power Platform )"
+    },
+    {
+      "parent_skill": "Microsoft Power Platform",
+      "sub_skill": "Power Apps",
+      "full_name": "Power Apps ( Microsoft Power Platform )"
+    },
+    {
+      "parent_skill": "Microsoft Power Platform",
+      "sub_skill": "Power Automate",
+      "full_name": "Power Automate ( Microsoft Power Platform )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Selenium",
+      "full_name": "Selenium ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Cypress",
+      "full_name": "Cypress ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Nunit",
+      "full_name": "Nunit ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Scala",
+      "full_name": "Scala ( Others )"
+    },
+    {
+      "parent_skill": "Performance Testing",
+      "sub_skill": "Jmeter",
+      "full_name": "Jmeter ( Performance Testing )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Junit & Mockito",
+      "full_name": "Junit & Mockito ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Machine Learning",
+      "full_name": "Machine Learning ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Tensorflow",
+      "full_name": "Tensorflow ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Neural Network",
+      "full_name": "Neural Network ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "ML/AI",
+      "full_name": "ML/AI ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Python / Python frameworks",
+      "full_name": "Python / Python frameworks ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Python",
+      "full_name": "Python ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Django",
+      "full_name": "Django ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Flask",
+      "full_name": "Flask ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Android",
+      "full_name": "Android ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Elastic Search",
+      "full_name": "Elastic Search ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Elk Stack",
+      "full_name": "Elk Stack ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Cloud Kubernetes",
+      "full_name": "Cloud Kubernetes ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "(PCF/TAS), Openshift",
+      "full_name": "(PCF/TAS), Openshift ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Search Engine",
+      "full_name": "Search Engine ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Apache Solr",
+      "full_name": "Apache Solr ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "C++",
+      "full_name": "C++ ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Deep learning",
+      "full_name": "Deep learning ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "CloudEra Impala",
+      "full_name": "CloudEra Impala ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "PHP",
+      "full_name": "PHP ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Backend Framework",
+      "full_name": "Backend Framework ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Frontend Framework",
+      "full_name": "Frontend Framework ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Handlebars",
+      "full_name": "Handlebars ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "JSF",
+      "full_name": "JSF ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Apache Spark",
+      "full_name": "Apache Spark ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Node.js",
+      "full_name": "Node.js ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Unix, Linux",
+      "full_name": "Unix, Linux ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Scrum",
+      "full_name": "Scrum ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Agile Methodologies",
+      "full_name": "Agile Methodologies ( Others )"
+    },
+    {
+      "parent_skill": "Test Management Tools",
+      "sub_skill": "Jira",
+      "full_name": "Jira ( Test Management Tools )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Scaled Agile Framework",
+      "full_name": "Scaled Agile Framework ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "SDLC",
+      "full_name": "SDLC ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Kanban",
+      "full_name": "Kanban ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Commmerce Hybris",
+      "full_name": "Commmerce Hybris ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "GoJS",
+      "full_name": "GoJS ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "VB.net",
+      "full_name": "VB.net ( Others )"
+    },
+    {
+      "parent_skill": "Oracle",
+      "sub_skill": "Oracle ADF",
+      "full_name": "Oracle ADF ( Oracle )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Axway",
+      "full_name": "Axway ( Others )"
+    },
+    {
+      "parent_skill": "Backend Reporting Tools",
+      "sub_skill": "Jasper",
+      "full_name": "Jasper ( Backend Reporting Tools )"
+    },
+    {
+      "parent_skill": "Backend Reporting Tools",
+      "sub_skill": "iReport",
+      "full_name": "iReport ( Backend Reporting Tools )"
+    },
+    {
+      "parent_skill": "Messaging System",
+      "sub_skill": "JMS",
+      "full_name": "JMS ( Messaging System )"
+    },
+    {
+      "parent_skill": "Scripting",
+      "sub_skill": "PowerShell",
+      "full_name": "PowerShell ( Scripting )"
+    },
+    {
+      "parent_skill": "Scripting",
+      "sub_skill": "VB Script",
+      "full_name": "VB Script ( Scripting )"
+    },
+    {
+      "parent_skill": "Scripting",
+      "sub_skill": "Service Now",
+      "full_name": "Service Now ( Scripting )"
+    },
+    {
+      "parent_skill": "Scripting",
+      "sub_skill": "Hybris",
+      "full_name": "Hybris ( Scripting )"
+    },
+    {
+      "parent_skill": "Scripting",
+      "sub_skill": "SMT",
+      "full_name": "SMT ( Scripting )"
+    },
+    {
+      "parent_skill": "Scripting",
+      "sub_skill": "Active directry",
+      "full_name": "Active directry ( Scripting )"
+    },
+    {
+      "parent_skill": "Server",
+      "sub_skill": "Apache Tomcat",
+      "full_name": "Apache Tomcat ( Server )"
+    },
+    {
+      "parent_skill": "Server",
+      "sub_skill": "Information Security and Privacy",
+      "full_name": "Information Security and Privacy ( Server )"
+    },
+    {
+      "parent_skill": "RPA (Robotic Process Automation)",
+      "sub_skill": "Automation Anywhere (A360)",
+      "full_name": "Automation Anywhere (A360) ( RPA (Robotic Process Automation) )"
+    },
+    {
+      "parent_skill": "Test Management Tools",
+      "sub_skill": "ALM",
+      "full_name": "ALM ( Test Management Tools )"
+    },
+    {
+      "parent_skill": "ERP Automation",
+      "sub_skill": "Worksoft Certify",
+      "full_name": "Worksoft Certify ( ERP Automation )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Appium",
+      "full_name": "Appium ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "RestAssured",
+      "full_name": "RestAssured ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Puppeteer",
+      "full_name": "Puppeteer ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "CodeceptJS",
+      "full_name": "CodeceptJS ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Service Now Automation Framework",
+      "full_name": "Service Now Automation Framework ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "PyTest",
+      "full_name": "PyTest ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "TestNG",
+      "full_name": "TestNG ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "pyrequest",
+      "full_name": "pyrequest ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "UFT",
+      "full_name": "UFT ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Robot framework",
+      "full_name": "Robot framework ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "RestSharp",
+      "full_name": "RestSharp ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "CodedUi",
+      "full_name": "CodedUi ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Tosca",
+      "full_name": "Tosca ( Automation Testing )"
+    },
+    {
+      "parent_skill": "RPA (Robotic Process Automation)",
+      "sub_skill": "UIPath",
+      "full_name": "UIPath ( RPA (Robotic Process Automation) )"
+    },
+    {
+      "parent_skill": "Performance Testing",
+      "sub_skill": "Microfocus Loadrunner",
+      "full_name": "Microfocus Loadrunner ( Performance Testing )"
+    },
+    {
+      "parent_skill": "Test Management Tools",
+      "sub_skill": "Mircosoft Azure Devops",
+      "full_name": "Mircosoft Azure Devops ( Test Management Tools )"
+    },
+    {
+      "parent_skill": "Test Management Tools",
+      "sub_skill": "JAMA",
+      "full_name": "JAMA ( Test Management Tools )"
+    },
+    {
+      "parent_skill": "Test Management Tools",
+      "sub_skill": "Test Rail",
+      "full_name": "Test Rail ( Test Management Tools )"
+    },
+    {
+      "parent_skill": "Test Management Tools",
+      "sub_skill": "Service Now",
+      "full_name": "Service Now ( Test Management Tools )"
+    },
+    {
+      "parent_skill": "Test Management",
+      "sub_skill": "Non ERP -Test Management",
+      "full_name": "Non ERP -Test Management ( Test Management )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Java - Automation",
+      "full_name": "Java - Automation ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "C#",
+      "full_name": "C# ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Javascript - AT",
+      "full_name": "Javascript - AT ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Typescript",
+      "full_name": "Typescript ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "ReactJs",
+      "full_name": "ReactJs ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "VB Script",
+      "full_name": "VB Script ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Test Management",
+      "sub_skill": "ERP -Test Management",
+      "full_name": "ERP -Test Management ( Test Management )"
+    },
+    {
+      "parent_skill": "Test Management Tools",
+      "sub_skill": "qTest",
+      "full_name": "qTest ( Test Management Tools )"
+    },
+    {
+      "parent_skill": "Manual Testing",
+      "sub_skill": "Web Application",
+      "full_name": "Web Application ( Manual Testing )"
+    },
+    {
+      "parent_skill": "Manual Testing",
+      "sub_skill": "Mobile Application",
+      "full_name": "Mobile Application ( Manual Testing )"
+    },
+    {
+      "parent_skill": "Manual Testing",
+      "sub_skill": "API",
+      "full_name": "API ( Manual Testing )"
+    },
+    {
+      "parent_skill": "Manual Testing",
+      "sub_skill": "Database",
+      "full_name": "Database ( Manual Testing )"
+    },
+    {
+      "parent_skill": "Manual Testing",
+      "sub_skill": "IoT",
+      "full_name": "IoT ( Manual Testing )"
+    },
+    {
+      "parent_skill": "Manual Testing",
+      "sub_skill": "Device Testing",
+      "full_name": "Device Testing ( Manual Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "CBTA",
+      "full_name": "CBTA ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "LeanFT",
+      "full_name": "LeanFT ( Automation Testing )"
+    },
+    {
+      "parent_skill": "CI/CD",
+      "sub_skill": "TeamCity",
+      "full_name": "TeamCity ( CI/CD )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "SOAPUI",
+      "full_name": "SOAPUI ( Others )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Python",
+      "full_name": "Python ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Postman",
+      "full_name": "Postman ( Others )"
+    },
+    {
+      "parent_skill": "Automation Testing",
+      "sub_skill": "Groovy",
+      "full_name": "Groovy ( Automation Testing )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "OWASP ZAP",
+      "full_name": "OWASP ZAP ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Kibana",
+      "full_name": "Kibana ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Grafana",
+      "full_name": "Grafana ( Others )"
+    },
+    {
+      "parent_skill": "Test Management Tools",
+      "sub_skill": "SolMan",
+      "full_name": "SolMan ( Test Management Tools )"
+    },
+    {
+      "parent_skill": "SAP",
+      "sub_skill": "SAP Functional Expertise",
+      "full_name": "SAP Functional Expertise ( SAP )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Splunk",
+      "full_name": "Splunk ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Appdynamics",
+      "full_name": "Appdynamics ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Dynatrace",
+      "full_name": "Dynatrace ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "newrelic",
+      "full_name": "newrelic ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Ansible Terraform",
+      "full_name": "Ansible Terraform ( Others )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "C Programming",
+      "full_name": "C Programming ( Others )"
+    },
+    {
+      "parent_skill": "Manual Testing",
+      "sub_skill": "Salesforce Testing",
+      "full_name": "Salesforce Testing ( Manual Testing )"
+    },
+    {
+      "parent_skill": "Manual Testing",
+      "sub_skill": "MS CRM testing",
+      "full_name": "MS CRM testing ( Manual Testing )"
+    },
+    {
+      "parent_skill": "Test Management Tools",
+      "sub_skill": "OpenText Octane",
+      "full_name": "OpenText Octane ( Test Management Tools )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Sumologic",
+      "full_name": "Sumologic ( Others )"
+    },
+    {
+      "parent_skill": "Manual Testing",
+      "sub_skill": "Sharepoint Tesing",
+      "full_name": "Sharepoint Tesing ( Manual Testing )"
+    },
+    {
+      "parent_skill": "Rust",
+      "sub_skill": "Rust",
+      "full_name": "Rust ( Rust )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Azure OpenAI",
+      "full_name": "Azure OpenAI ( Others )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "ScyllaDB",
+      "full_name": "ScyllaDB ( Database )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "OIDC",
+      "full_name": "OIDC ( Others )"
+    },
+    {
+      "parent_skill": "ERP Test Management",
+      "sub_skill": "JiVS S/4 HANA Migration Tool",
+      "full_name": "JiVS S/4 HANA Migration Tool ( ERP Test Management )"
+    },
+    {
+      "parent_skill": "PDJ - L1",
+      "sub_skill": "L1 - Junior SW Engineer",
+      "full_name": "L1 - Junior SW Engineer ( PDJ - L1 )"
+    },
+    {
+      "parent_skill": "PDJ - L2",
+      "sub_skill": "L2 - Software Engineer",
+      "full_name": "L2 - Software Engineer ( PDJ - L2 )"
+    },
+    {
+      "parent_skill": "PDJ - L3",
+      "sub_skill": "L3 - Senior Software Engineer",
+      "full_name": "L3 - Senior Software Engineer ( PDJ - L3 )"
+    },
+    {
+      "parent_skill": "PDJ - L4",
+      "sub_skill": "L4 - Staff Software Engineer",
+      "full_name": "L4 - Staff Software Engineer ( PDJ - L4 )"
+    },
+    {
+      "parent_skill": "PDJ - L5",
+      "sub_skill": "L5 - Principal Chief SW Engineer",
+      "full_name": "L5 - Principal Chief SW Engineer ( PDJ - L5 )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "Service Now",
+      "full_name": "Service Now ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "Mendix",
+      "full_name": "Mendix ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "Salesforce",
+      "full_name": "Salesforce ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "Knime",
+      "full_name": "Knime ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Low Code Development",
+      "sub_skill": "MS Power Platform",
+      "full_name": "MS Power Platform ( Low Code Development )"
+    },
+    {
+      "parent_skill": "Microsoft",
+      "sub_skill": "SharePoint",
+      "full_name": "SharePoint ( Microsoft )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "Swift",
+      "full_name": "Swift ( Others )"
+    },
+    {
+      "parent_skill": "Technical Consultations",
+      "sub_skill": "Service Now",
+      "full_name": "Service Now ( Technical Consultations )"
+    },
+    {
+      "parent_skill": "Development Management Tool",
+      "sub_skill": "Jira",
+      "full_name": "Jira ( Development Management Tool )"
+    },
+    {
+      "parent_skill": "Others",
+      "sub_skill": "No Skills",
+      "full_name": "No Skills ( Others )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Job Runner",
+      "full_name": "Job Runner ( SpringBoot )"
+    },
+    {
+      "parent_skill": "Workload Automation",
+      "sub_skill": "Broadcom",
+      "full_name": "Broadcom ( Workload Automation )"
+    },
+    {
+      "parent_skill": "API Security",
+      "sub_skill": "API Gateway",
+      "full_name": "API Gateway ( API Security )"
+    },
+    {
+      "parent_skill": "Java Technologies",
+      "sub_skill": "Struts",
+      "full_name": "Struts ( Java Technologies )"
+    },
+    {
+      "parent_skill": "Frontend Testing",
+      "sub_skill": "Karma",
+      "full_name": "Karma ( Frontend Testing )"
+    },
+    {
+      "parent_skill": "Frontend Testing",
+      "sub_skill": "Jasmine",
+      "full_name": "Jasmine ( Frontend Testing )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "Hadoop",
+      "full_name": "Hadoop ( Database )"
+    },
+    {
+      "parent_skill": "Spring",
+      "sub_skill": "Spring",
+      "full_name": "Spring ( Spring )"
+    },
+    {
+      "parent_skill": "Message Broker Technology",
+      "sub_skill": "Solace",
+      "full_name": "Solace ( Message Broker Technology )"
+    },
+    {
+      "parent_skill": "SAP",
+      "sub_skill": "SAP Web Dev.",
+      "full_name": "SAP Web Dev. ( SAP )"
+    },
+    {
+      "parent_skill": "SAP",
+      "sub_skill": "SAP Cloud Platform Integration",
+      "full_name": "SAP Cloud Platform Integration ( SAP )"
+    },
+    {
+      "parent_skill": "Angular",
+      "sub_skill": "Angular 14",
+      "full_name": "Angular 14 ( Angular )"
+    },
+    {
+      "parent_skill": "DotNet Technologies",
+      "sub_skill": "Dapper",
+      "full_name": "Dapper ( DotNet Technologies )"
+    },
+    {
+      "parent_skill": "DotNet Technologies",
+      "sub_skill": "IIS",
+      "full_name": "IIS ( DotNet Technologies )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "Datalake - Redlake",
+      "full_name": "Datalake - Redlake ( Database )"
+    },
+    {
+      "parent_skill": "SpringBoot",
+      "sub_skill": "Spring Boot 3.2.5",
+      "full_name": "Spring Boot 3.2.5 ( SpringBoot )"
+    },
+    {
+      "parent_skill": "Angular",
+      "sub_skill": "Angular 17",
+      "full_name": "Angular 17 ( Angular )"
+    },
+    {
+      "parent_skill": "Container technologies",
+      "sub_skill": "Azure Spring Apps",
+      "full_name": "Azure Spring Apps ( Container technologies )"
+    },
+    {
+      "parent_skill": "Database",
+      "sub_skill": "H2 Database",
+      "full_name": "H2 Database ( Database )"
+    }
+  ]
+}
