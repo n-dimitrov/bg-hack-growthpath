@@ -45,16 +45,38 @@ GrowthPath empowers organizations to:
 - **HR/Admins**: Configure system, manage competencies, access analytics
 - **Leadership**: Strategic oversight, talent analytics, workforce planning
 
+## Technology Stack
+
+- **Frontend**: React 18 + Vite
+- **Backend**: FastAPI (Python)
+- **Database**: SQLite (development) / PostgreSQL (production)
+- **ORM**: SQLAlchemy
+
 ## Getting Started
 
-### Prerequisites
-TBD - Based on technology stack selection
+See [SETUP.md](SETUP.md) for detailed installation and setup instructions.
 
-### Installation
-TBD - Setup instructions will be added as project develops
+### Quick Start
 
-### Configuration
-TBD - Configuration guide for competency models and organizational structure
+**Backend:**
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python run.py
+```
+
+**Frontend:**
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+- Backend API: http://localhost:8000
+- API Docs: http://localhost:8000/docs
+- Frontend: http://localhost:3000
 
 ## Project Status
 
