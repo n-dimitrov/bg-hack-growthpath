@@ -44,8 +44,8 @@
 
 .selector-group {
   flex: 1;
-  min-width: 250px;
-  max-width: 400px;
+  min-width: 200px;
+  max-width: 350px;
 }
 
 .selector-group label {
@@ -68,6 +68,11 @@
 .level-select:focus {
   outline: none;
   border-color: #007bff;
+}
+
+.track-select {
+  font-weight: 600;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
 .arrow-indicator {
@@ -109,6 +114,13 @@
 .stat-label {
   font-size: 1rem;
   opacity: 0.9;
+}
+
+.stat-track {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin-top: 0.25rem;
+  font-style: italic;
 }
 
 .gaps-section {
@@ -193,6 +205,14 @@
   font-weight: 600;
 }
 
+.gap-badge.new {
+  background: #6f42c1;
+}
+
+.gap-card.new {
+  border-left: 4px solid #6f42c1;
+}
+
 .gap-description {
   color: #666;
   margin-bottom: 1rem;
@@ -222,6 +242,13 @@
   margin: 0;
   line-height: 1.6;
   color: #856404;
+}
+
+.current-state.not-applicable {
+  background: #e2e3e5;
+  border-left: 4px solid #6c757d;
+  color: #6c757d;
+  font-style: italic;
 }
 
 .target-state {
@@ -491,6 +518,21 @@
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  .level-selectors {
+    flex-direction: column;
+  }
+
+  .arrow-indicator {
+    transform: rotate(90deg);
+    margin: 1rem 0;
+  }
+
+  .selector-group {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   .level-selectors {
     flex-direction: column;
@@ -498,7 +540,7 @@
 
   .arrow-indicator {
     transform: rotate(90deg);
-    margin: 0;
+    margin: 1rem 0;
   }
 
   .gap-comparison {

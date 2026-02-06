@@ -6,11 +6,18 @@ const Dashboard = () => {
   const [competencies, setCompetencies] = useState([]);
   const [currentLevel, setCurrentLevel] = useState('PC07');
   const [targetLevel, setTargetLevel] = useState('PC08');
+  const [currentTrack, setCurrentTrack] = useState('software_engineer');
+  const [targetTrack, setTargetTrack] = useState('software_engineer');
   const [loading, setLoading] = useState(false);
   const [developmentPlan, setDevelopmentPlan] = useState(null);
   const [showPlan, setShowPlan] = useState(false);
 
-  const payClasses = [
+  const tracks = [
+    { value: 'software_engineer', label: 'Software Engineer Track' },
+    { value: 'software_architect', label: 'Software Architect Track' }
+  ];
+
+  const engineerLevels = [
     { value: 'PC06', label: 'PC06 - Junior Software Engineer' },
     { value: 'PC07', label: 'PC07 - Software Engineer' },
     { value: 'PC08', label: 'PC08 - Senior Software Engineer' },
@@ -18,9 +25,31 @@ const Dashboard = () => {
     { value: 'PC10', label: 'PC10 - Principal Software Engineer' }
   ];
 
+  const architectLevels = [
+    { value: 'PC09', label: 'PC09 - Software Architect' },
+    { value: 'PC10', label: 'PC10 - Senior Software Architect' }
+  ];
+
+  // Get available levels based on selected track
+  const getCurrentLevels = () => currentTrack === 'software_architect' ? architectLevels : engineerLevels;
+  const getTargetLevels = () => targetTrack === 'software_architect' ? architectLevels : engineerLevels;
+
   useEffect(() => {
     analyzeSkillsGap();
-  }, [currentLevel, targetLevel]);
+  }, [currentLevel, targetLevel, currentTrack, targetTrack]);
+
+  // Auto-adjust levels when track changes
+  useEffect(() => {
+    if (currentTrack === 'software_architect' && currentLevel < 'PC09') {
+      setCurrentLevel('PC09');
+    }
+  }, [currentTrack]);
+
+  useEffect(() => {
+    if (targetTrack === 'software_architect' && targetLevel < 'PC09') {
+      setTargetLevel('PC09');
+    }
+  }, [targetTrack]);
 
   const analyzeSkillsGap = async () => {
     if (currentLevel === targetLevel) {
@@ -68,8 +97,21 @@ const Dashboard = () => {
       </div>
 
       <div className="level-selector-card">
-        <h2>Select Your Career Levels</h2>
+        <h2>Select Your Career Path</h2>
         <div className="level-selectors">
+          <div className="selector-group">
+            <label>Current Track</label>
+            <select
+              value={currentTrack}
+              onChange={(e) => setCurrentTrack(e.target.value)}
+              className="level-select track-select"
+            >
+              {tracks.map(track => (
+                <option key={track.value} value={track.value}>{track.label}</option>
+              ))}
+            </select>
+          </div>
+
           <div className="selector-group">
             <label>Current Level</label>
             <select
@@ -77,7 +119,7 @@ const Dashboard = () => {
               onChange={(e) => setCurrentLevel(e.target.value)}
               className="level-select"
             >
-              {payClasses.map(pc => (
+              {getCurrentLevels().map(pc => (
                 <option key={pc.value} value={pc.value}>{pc.label}</option>
               ))}
             </select>
@@ -86,13 +128,26 @@ const Dashboard = () => {
           <div className="arrow-indicator">→</div>
 
           <div className="selector-group">
+            <label>Target Track</label>
+            <select
+              value={targetTrack}
+              onChange={(e) => setTargetTrack(e.target.value)}
+              className="level-select track-select"
+            >
+              {tracks.map(track => (
+                <option key={track.value} value={track.value}>{track.label}</option>
+              ))}
+            </select>
+          </div>
+
+          <div className="selector-group">
             <label>Target Level</label>
             <select
               value={targetLevel}
               onChange={(e) => setTargetLevel(e.target.value)}
               className="level-select"
             >
-              {payClasses.map(pc => (
+              {getTargetLevels().map(pc => (
                 <option key={pc.value} value={pc.value}>{pc.label}</option>
               ))}
             </select>
@@ -112,10 +167,12 @@ const Dashboard = () => {
             <div className="stat-card">
               <div className="stat-number">{currentLevel}</div>
               <div className="stat-label">Current Level</div>
+              <div className="stat-track">{currentTrack === 'software_architect' ? 'Architect Track' : 'Engineer Track'}</div>
             </div>
             <div className="stat-card">
               <div className="stat-number">{targetLevel}</div>
               <div className="stat-label">Target Level</div>
+              <div className="stat-track">{targetTrack === 'software_architect' ? 'Architect Track' : 'Engineer Track'}</div>
             </div>
           </div>
 
@@ -129,10 +186,12 @@ const Dashboard = () => {
 
             <div className="gaps-list">
               {gapAnalysis.gaps.map((gap, index) => (
-                <div key={index} className="gap-card">
+                <div key={index} className={`gap-card ${gap.gap_type || 'improvement'}`}>
                   <div className="gap-header">
                     <h3>{gap.area}</h3>
-                    <span className="gap-badge">Gap Identified</span>
+                    <span className={`gap-badge ${gap.gap_type || 'improvement'}`}>
+                      {gap.gap_type === 'new' ? 'New Competency' : 'Gap Identified'}
+                    </span>
                   </div>
 
                   {gap.description && (
@@ -142,7 +201,9 @@ const Dashboard = () => {
                   <div className="gap-comparison">
                     <div className="gap-section">
                       <h4>Current Level ({currentLevel})</h4>
-                      <p className="current-state">{gap.current}</p>
+                      <p className={`current-state ${gap.gap_type === 'new' ? 'not-applicable' : ''}`}>
+                        {gap.current}
+                      </p>
                     </div>
 
                     <div className="gap-divider">
