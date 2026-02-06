@@ -129,10 +129,12 @@ const Dashboard = () => {
 
             <div className="gaps-list">
               {gapAnalysis.gaps.map((gap, index) => (
-                <div key={index} className="gap-card">
+                <div key={index} className={`gap-card ${gap.gap_type || 'improvement'}`}>
                   <div className="gap-header">
                     <h3>{gap.area}</h3>
-                    <span className="gap-badge">Gap Identified</span>
+                    <span className={`gap-badge ${gap.gap_type || 'improvement'}`}>
+                      {gap.gap_type === 'new' ? 'New Competency' : 'Gap Identified'}
+                    </span>
                   </div>
 
                   {gap.description && (
@@ -142,7 +144,9 @@ const Dashboard = () => {
                   <div className="gap-comparison">
                     <div className="gap-section">
                       <h4>Current Level ({currentLevel})</h4>
-                      <p className="current-state">{gap.current}</p>
+                      <p className={`current-state ${gap.gap_type === 'new' ? 'not-applicable' : ''}`}>
+                        {gap.current}
+                      </p>
                     </div>
 
                     <div className="gap-divider">
