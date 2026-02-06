@@ -159,6 +159,10 @@ def calculate_skills_gap(current_level: str, target_level: str, db: Session = De
     """
     Calculate skills gap between current and target levels
 
+    Shows ALL competencies needed at target level:
+    - Existing competencies that need to be improved
+    - New competencies that don't exist at current level
+
     Args:
         current_level: Current pay class (e.g., 'PC07')
         target_level: Target pay class (e.g., 'PC08')
@@ -182,16 +186,32 @@ def calculate_skills_gap(current_level: str, target_level: str, db: Session = De
             CompetencyExpectation.pay_class == target_level
         ).first()
 
-        # Only include if both exist and are different
-        if current_exp and target_exp and current_exp.expectations != target_exp.expectations:
-            gaps.append({
-                "competency_area_id": area.id,
-                "area": area.name,
-                "description": area.description,
-                "current": current_exp.expectations,
-                "required": target_exp.expectations,
-                "gap_summary": f"Need to progress from '{current_level}' to '{target_level}' level"
-            })
+        # Include if target level has expectations AND either:
+        # 1. Current level doesn't have it (new competency to learn)
+        # 2. Current level has it but it's different (competency to improve)
+        if target_exp:
+            if not current_exp:
+                # New competency that doesn't exist at current level
+                gaps.append({
+                    "competency_area_id": area.id,
+                    "area": area.name,
+                    "description": area.description,
+                    "current": "Not applicable at this level",
+                    "required": target_exp.expectations,
+                    "gap_summary": f"New competency required at {target_level}",
+                    "gap_type": "new"
+                })
+            elif current_exp.expectations != target_exp.expectations:
+                # Existing competency with different expectations
+                gaps.append({
+                    "competency_area_id": area.id,
+                    "area": area.name,
+                    "description": area.description,
+                    "current": current_exp.expectations,
+                    "required": target_exp.expectations,
+                    "gap_summary": f"Need to progress from '{current_level}' to '{target_level}' level",
+                    "gap_type": "improvement"
+                })
 
     return {
         "current_level": current_level,
