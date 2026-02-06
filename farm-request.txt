@@ -1,0 +1,5 @@
+curl \
+-X POST "https://aoai-farm.bosch-temp.com/api/google/v1/publishers/anthropic/models/claude-sonnet-4-5@20250929:rawPredict" \
+-H "Authorization: Bearer $GENAIPLATFORM_FARM_SUBSCRIPTION_KEY" \
+-H "Content-Type: application/json" \
+-d '{"anthropic_version":"vertex-2023-10-16","messages":[{"role":"user","content":"Hello!"}],"max_tokens": 1024}'
