@@ -18,19 +18,17 @@ function App() {
           <h1>🚀 GrowthPath</h1>
           <p>Competence Management System</p>
           <nav style={{ marginTop: '1rem' }}>
-            <Link to="/" style={linkStyle}>Home</Link>
-            <Link to="/employees" style={linkStyle}>Employees</Link>
+            <Link to="/" style={linkStyle}>Employees</Link>
             <Link to="/career-paths" style={linkStyle}>Career Paths</Link>
             <Link to="/skills" style={linkStyle}>Skills Catalog</Link>
             <Link to="/gap-analysis" style={linkStyle}>Gap Analysis</Link>
             <Link to="/progress" style={linkStyle}>Progress Tracker</Link>
-            <Link to="/assessment" style={linkStyle}>Assessment</Link>
             <Link to="/import" style={linkStyle}>Import Data</Link>
           </nav>
         </header>
         <main>
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<EmployeeDirectory />} />
             <Route path="/employees" element={<EmployeeDirectory />} />
             <Route path="/career-paths" element={<CareerPathVisualizer />} />
             <Route path="/career/:track/:payClass" element={<CompetencyDetails />} />
