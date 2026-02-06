@@ -6,6 +6,8 @@ import SkillsCatalog from './components/SkillsCatalog'
 import DashboardNew from './components/Dashboard'
 import CompetencyDetails from './components/CompetencyDetails'
 import ProgressTracker from './components/ProgressTracker'
+import DataImport from './pages/DataImport'
+import EmployeeDirectory from './pages/EmployeeDirectory'
 import './styles/App.css'
 
 function App() {
@@ -17,22 +19,26 @@ function App() {
           <p>Competence Management System</p>
           <nav style={{ marginTop: '1rem' }}>
             <Link to="/" style={linkStyle}>Home</Link>
+            <Link to="/employees" style={linkStyle}>Employees</Link>
             <Link to="/career-paths" style={linkStyle}>Career Paths</Link>
             <Link to="/skills" style={linkStyle}>Skills Catalog</Link>
             <Link to="/gap-analysis" style={linkStyle}>Gap Analysis</Link>
             <Link to="/progress" style={linkStyle}>Progress Tracker</Link>
             <Link to="/assessment" style={linkStyle}>Assessment</Link>
+            <Link to="/import" style={linkStyle}>Import Data</Link>
           </nav>
         </header>
         <main>
           <Routes>
             <Route path="/" element={<Dashboard />} />
+            <Route path="/employees" element={<EmployeeDirectory />} />
             <Route path="/career-paths" element={<CareerPathVisualizer />} />
             <Route path="/career/:track/:payClass" element={<CompetencyDetails />} />
             <Route path="/skills" element={<SkillsCatalog />} />
             <Route path="/gap-analysis" element={<DashboardNew />} />
             <Route path="/progress" element={<ProgressTracker />} />
             <Route path="/assessment" element={<AssessmentForm />} />
+            <Route path="/import" element={<DataImport />} />
           </Routes>
         </main>
       </div>

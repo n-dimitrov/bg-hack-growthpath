@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from .core.database import engine, Base
-from .api import competencies, assessments, career, skills, llm
+from .api import competencies, assessments, career, skills, llm, import_data, users
 import os
 
 # Create database tables
@@ -30,6 +30,8 @@ app.include_router(assessments.router)
 app.include_router(career.router)
 app.include_router(skills.router)
 app.include_router(llm.router)
+app.include_router(import_data.router)
+app.include_router(users.router)
 
 
 @app.get("/")
