@@ -54,8 +54,56 @@ function UserProfile({ userId, onClose }) {
     return PROFICIENCY_LEVELS[level] || PROFICIENCY_LEVELS[1]
   }
 
-  const handlePrint = () => {
-    window.print()
+  const handleExportPDF = () => {
+    if (!analysis) return
+
+    // Create printable content with analysis
+    const printWindow = window.open('', '_blank')
+    const content = `
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Skills Analysis - ${user.name}</title>
+          <style>
+            body {
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 2rem;
+              line-height: 1.6;
+            }
+            h1 { color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 0.5rem; }
+            h2 { color: #764ba2; margin-top: 2rem; }
+            h3 { color: #333; margin-top: 1.5rem; }
+            .header { margin-bottom: 2rem; }
+            .meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+            .analysis { white-space: pre-wrap; }
+            ul { margin: 0.5rem 0; }
+            li { margin: 0.25rem 0; }
+            @media print {
+              body { padding: 1rem; }
+            }
+          </style>
+        </head>
+        <body>
+          <div class="header">
+            <h1>AI Skills Analysis Report</h1>
+            <p><strong>Employee:</strong> ${user.name}</p>
+            <p><strong>Email:</strong> ${user.email}</p>
+            <p><strong>Role:</strong> ${user.role}</p>
+            <div class="meta">
+              <p>Generated: ${new Date().toLocaleString()}</p>
+              <p>Skills Analyzed: ${analysis.skills_analyzed}</p>
+              <p>Model: ${analysis.model_used}</p>
+            </div>
+          </div>
+          <div class="analysis">${analysis.analysis.replace(/\n/g, '<br>')}</div>
+        </body>
+      </html>
+    `
+    printWindow.document.write(content)
+    printWindow.document.close()
+    printWindow.print()
   }
 
   const handleAnalyze = async () => {
@@ -226,9 +274,11 @@ function UserProfile({ userId, onClose }) {
           >
             {analyzing ? '🔄 Analyzing...' : '🤖 Analyze Skills'}
           </button>
-          <button className="btn-primary" onClick={handlePrint}>
-            Export PDF
-          </button>
+          {analysis && showAnalysis && (
+            <button className="btn-primary" onClick={handleExportPDF}>
+              📄 Export PDF Report
+            </button>
+          )}
         </div>
       </div>
     </div>
